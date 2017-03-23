@@ -1,0 +1,46 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+/*顶部信息*/
+header{
+    background-color: whitesmoke;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+h3{
+    display: inline-block;
+    margin: 0px;
+}
+
+
+/*底部导航条样式*/
+.button span{
+    margin-top: 5px;
+    margin-left: 30px;
+    width: 50px;
+    height: 100%;
+    text-align: center;
+}
+.button span:hover{
+    color: mediumorchid;
+}
+.button a:hover{
+    color: lightgreen;
+    text-decoration: none;
+}
+footer div{
+    background-color:#FFFFFF;
+}
+.button{
+width: 100%;
+display: flex;
+justify-content: space-around;
+         }
+.button p{
+text-align: center;
+        }

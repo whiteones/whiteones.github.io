@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="author" content="yyd">
+        <title>购物车-购物啦!!</title>
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="shangpin.css">
+        <style>
+            body{
+                background-color: #F5F5F5; 
+            }
+            .jingtan{
+                margin-top: 40px;
+                text-align: center;
+            }
+            .shang a{
+                display: inline-block;
+                font-size: 20px;
+                font-family: "楷体";  
+                text-align: center;
+                padding: 10px 10px;
+                text-decoration: none;
+            }
+            .pin a{
+                display: inline-block;
+                font-size: 20px;
+                font-family: "楷体";  
+                text-align: center;
+                padding: 10px 10px;
+                text-decoration: none;
+            }
+            .shang{
+                background-color: #FFFFFF;
+                width: 100px;
+                height: 50px; 
+                display: inline-block;
+            }
+            .pin{
+                background-color: #FE5722;
+                width: 100px;
+                height: 50px; 
+                display: inline-block;         
+            }
+            section{
+                margin-top: 20px;
+            }
+            .button{
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+            }
+           .button p{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <!--顶部内容-->
+        <header>
+            <div class="nav1">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <h3>购物车</h3>
+                <a href=""><span class="glyphicon glyphicon-search"></span></a>
+            </div>
+        </header>
+                <div class="jingtan"><img src="image/jingtan.png" alt="惊叹号">
+        <section>
+            <div class="shang"><a href="http://m.mi.com/index.html" style="color: black;">全部商品</a></div>
+            <div class="pin"><a href="" style="color: black;">精选商品</a></div>
+            </div>
+        </section>
+        <!--底部导航栏-->
+        <footer>
+            <div class="button  nav navbar-fixed-bottom">   
+            <span class="glyphicon glyphicon-home"><a href="index.html"><p>首页</p></a></span>
+            <span class="glyphicon glyphicon-plane"><a href="fuye.html"><p>分类</p></a></span>
+            <span class="glyphicon glyphicon-shopping-cart"><a href="#"><p style="background-color: orange; border-radius: 50%;">购物车</p></a></span>
+            <span class="glyphicon glyphicon-thumbs-up"><a href="geren.html"><p>服务</p></a></span>
+            </div>
+        </footer>
+        <script src="bootstrap/js/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
